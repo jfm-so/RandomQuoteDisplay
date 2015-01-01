@@ -1,9 +1,9 @@
-RandomQuoteDisplayer
+RandomQuoteDisplay
 ====================
 
 An HTML page that displays a new random quote upon refresh
 
-Set up Instructions: https://github.com/johnathanmartin/RandomQuoteDisplayer/wiki
+Set up Instructions: https://github.com/johnathanmartin/RandomQuoteDisplay/wiki
 
 Todo
 ====================
