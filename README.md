@@ -5,8 +5,8 @@ An HTML page that displays a new random quote upon refresh
 
 Set up Instructions: https://github.com/johnathanmartin/RandomQuoteDisplay/wiki
 
-Todo
+Planned Features:
 ====================
-- Add json api
-- Add an admin page for managing quotes
+- Add api (ETA: Before March 2015)
+- Add an admin page for managing quotes (No ETA)
 
