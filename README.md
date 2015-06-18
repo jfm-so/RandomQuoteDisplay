@@ -1,7 +1,7 @@
 RandomQuoteDisplay
 ====================
 
-An HTML page that displays a new random quote upon refresh
+A PHP/HTML page that displays a new random quote upon refresh
 
 Set up Instructions: https://github.com/johnathanmartin/RandomQuoteDisplay/wiki
 
@@ -9,7 +9,7 @@ Whats New:
 ====================
 - API Added
 
-Planned Features:
+Coming Soon:
 ====================
-- Add an admin page for managing quotes (No ETA)
+- Admin Page for Managing Quotes (Add, Delete, View)
 
