@@ -20,3 +20,7 @@ quotes.
 ?action=view
 ?action=new
 ?action=remove
+
+To Do:
+==========
+- Update wiki with new instructions
