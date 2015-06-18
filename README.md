@@ -7,9 +7,16 @@ Set up Instructions: https://github.com/johnathanmartin/RandomQuoteDisplay/wiki
 
 Whats New:
 ====================
+- Admin Page 
 - API Added
 
-Coming Soon:
-====================
-- Admin Page for Managing Quotes (Add, Delete, View)
+Admin Page:
+==========
+- After you config the variables in admin.php you are able to directly manage your
+quotes.
 
+- To increase security you must add one of the following actions to your request.
+
+?action=view
+?action=new
+?action=remove

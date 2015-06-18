@@ -5,11 +5,8 @@ $title = 'Title';
 $mysqlserver = 'localhost'; //Server - Normally Localhost
 $username = 'username'; //Database Username
 $password = 'password'; //Database Password
-$database = 'tips'; //Default of mysql import
-
-//If you do not know what your doing, do not touch!
-//If you do not know what your doing, do not touch!
-//If you do not know what your doing, do not touch!
+$database = 'quotes'; //Default of mysql import
+//Make sure to also config admin.php
 
 
 $con=mysqli_connect("$mysqlserver","$username","$password","$database");
@@ -19,9 +16,8 @@ if (mysqli_connect_errno()) {
 }
 
 $num = Rand (0,2) ; 
-$result = mysqli_query($con,"SELECT * FROM tips ORDER BY RAND() LIMIT 1");
+$result = mysqli_query($con,"SELECT * FROM quotes ORDER BY RAND() LIMIT 1");
 
-//mysqli_close($con);
 ?>
 
 <!DOCTYPE html>
@@ -49,7 +45,7 @@ $result = mysqli_query($con,"SELECT * FROM tips ORDER BY RAND() LIMIT 1");
 <?php   
 while($row = mysqli_fetch_array($result)) {
   echo "<tr>";
-  echo "<td>" . $row['tip'] . "</td>";
+  echo "<td>" . $row['quote'] . "</td>";
   echo "</tr>";
 }
 ?><br><a href="/" class="btn btn-default btn-lg" title="Refresh">Refresh</a></p>
